@@ -11,6 +11,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+#navbar {
+    margin: 5px 0;
+    border: transparent;
+}
 #about {
     padding: 5px;
     font-size: 14px;
@@ -21,7 +25,7 @@ a:hover {
     padding: 5px;
     font-size: 14px;
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 4px;
 }
 #apps-image {
     width: 25px;
@@ -75,4 +79,45 @@ a:hover {
 }
 .searchbar:focus {
     outline: none;
+}
+.buttons {
+    display: inline-block;
+    border: none;
+    background: white;
+    margin: 15px 25px;
+    padding: 5px 5px;
+    color: darkslategrey;
+}
+.buttons:hover {
+    border: 1px solid rgb(182, 182, 243);
+    border-radius: 5px;
+    color: black;
+}
+#buttons-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#footer-links {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-link {
+    padding: 0px 15px;
+}
+#carbon {
+    text-align: center;
 }
